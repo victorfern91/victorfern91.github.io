@@ -1,0 +1,231 @@
+/* HTML Style */
+
+html{
+	background-color: #212121;
+	margin: 0;
+	padding: 0;
+	top:0;
+	left: 0;
+	color: #eee;
+	font-family: 'Open Sans', sans-serif;
+	width: 100%;
+	height: 100%
+}
+.icon {
+	font-size : 3.2em;
+}
+
+.container {
+	margin: auto;
+	width: 80%;
+}
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+.center {
+	text-align: center;
+}
+.loading{
+	font-size: 2em;
+}
+*:focus{
+	outline: 0;
+}
+.link{
+	vertical-align: middle;
+	font-size: 1.5em !important;
+	color: rgba(255,255,255, 0.45);
+}
+
+.link:hover{
+	color: rgba(255,255,255, 0.9);
+}
+a{
+	margin: 0.2em;
+	color: #eee;
+  	text-decoration: none;
+}
+
+/* Terminal Style */
+#terminal {
+	max-width: 600px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: rgba(20, 20, 20, 1);
+	overflow: hidden;
+	width: 100%;
+	margin: 4em auto 1em auto;
+	color: #eeeeee;
+	height: 180px;
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.12);
+  			box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.12);
+  	font-size: 0.8em;
+  	font-weight: 100;
+  	font-family: 'Roboto Mono', sans-serif;
+}
+#terminalContainer{
+	height: calc(100% - 24px);
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin: 0 0 -24px 0;
+}
+.header{
+	background:#c8c8c8;
+	height:24px;
+	width:100%;
+	padding-left:5px;
+}
+.terminalTitle{
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	padding: 3px 0px 0 0px;
+	margin-left: -58px;
+}
+
+.terminalbutton{
+  height:12px;
+  width:12px;
+  border-radius:12px;
+  float: left;
+  margin: 6px 6px 0 0;
+  background-color: black;
+}
+.terminalStyle{
+	color: white;
+	font-size: 1em;
+  	font-weight: 100;  	
+  	font-family: 'Roboto Mono', sans-serif;
+}
+#command{
+	width: 98%;
+	overflow: hidden;
+	height: 1.2em;
+	resize: none;
+	margin : 0.2em 0.5em 0 0.5em;
+	border-width: 0;
+	background-color: rgba(255,255,255,0);
+}
+#terminalInput{
+  	vertical-align: middle;
+  	padding: 0.5em 0 0 0;
+}
+#terminalOutput{
+	margin: 0.1em 0.5em 0 0.5em;
+}
+.close{
+	background: #D84315;
+	cursor: pointer;
+}
+.minimize {
+	background: #FFAB40;
+}
+.zoom {
+	background: #8BC34A;
+}
+.line{
+	margin: 1em;
+}
+
+/* "Logo" Style */
+
+#name {
+	width: auto;
+	font-size: 1.4em;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFEB3B;
+}
+
+#job {
+	width: auto;
+	font-size: 0.8em;
+	font-weight: 200;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+#hiddenMessage{
+	font-size: 0.8em;
+	visibility: hidden;
+	font-weight: 200;
+	margin: 2em;
+  	font-family: 'Roboto Mono', !important ;
+}
+
+.contact{
+	color: rgba(255,255,255, 0.45);
+	margin: 0.2em;
+	font-size: 0.8em;
+	font-family: 'Roboto Mono', !important;
+	font-weight: 100;
+}
+
+.footer{
+	font-size: 1em;
+}
+
+/* Responsive Code */
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	#name {
+		font-size: 1.5em;	
+	}
+	#job {
+		font-size: 1em;	
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	.icon {
+		font-size : 5em;
+	}
+	#name {
+		font-size: 2em;	
+	}
+	#job {
+		font-size: 1em;	
+	}
+	#terminal {
+		height: 250px;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	#name {
+		font-size: 2.5em;	
+	}
+	#job {
+		font-size: 1.5em;	
+	}
+	#underDevelopment{
+		font-size: 1.3em;
+	}
+	#terminal {
+		width: 70%;
+		height: 350px;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	#terminal {
+		width: 50%;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+
