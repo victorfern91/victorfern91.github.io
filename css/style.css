@@ -70,7 +70,7 @@ a{
 }
 #terminalContainer{
 	height: calc(100% - 24px);
-	overflow-y: auto
+	overflow-y: auto;
 	overflow-x: hidden;
 	margin: 0 0 -24px 0;
 }
