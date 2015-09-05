@@ -102,7 +102,7 @@ a{
 .terminalStyle{
 	color: white;
 	font-size: 1em;
-  	font-weight: 100;  	
+  	font-weight: 100;
   	font-family: 'Roboto Mono', sans-serif;
 }
 #command{
@@ -175,10 +175,10 @@ a{
 /* Larger than mobile */
 @media (min-width: 400px) {
 	#name {
-		font-size: 1.5em;	
+		font-size: 1.5em;
 	}
 	#job {
-		font-size: 1em;	
+		font-size: 1em;
 	}
 }
 
@@ -188,10 +188,10 @@ a{
 		font-size : 5em;
 	}
 	#name {
-		font-size: 2em;	
+		font-size: 2em;
 	}
 	#job {
-		font-size: 1em;	
+		font-size: 1em;
 	}
 	#terminal {
 		height: 250px;
@@ -201,10 +201,10 @@ a{
 /* Larger than tablet */
 @media (min-width: 750px) {
 	#name {
-		font-size: 2.5em;	
+		font-size: 2.5em;
 	}
 	#job {
-		font-size: 1.5em;	
+		font-size: 1.5em;
 	}
 	#underDevelopment{
 		font-size: 1.3em;
@@ -224,4 +224,3 @@ a{
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
