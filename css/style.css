@@ -115,7 +115,8 @@ a{
 	background-color: rgba(255,255,255,0);
 }
 #terminalOutput{
-	margin: 0.6em 0 0 0.5em;
+	margin: 0.6em 0 0 0.6em;
+	line-height: 1.5em;
 }
 .close{
 	background: #D84315;
@@ -218,7 +219,7 @@ a{
 /* Larger than desktop */
 @media (min-width: 1000px) {
 	#terminal {
-		width: 50%;
+		width: 60%;
 	}
 }
 
