@@ -14,7 +14,6 @@ html{
 .icon {
 	font-size : 3.2em;
 }
-
 .container {
 	margin: auto;
 	width: 80%;
@@ -22,7 +21,6 @@ html{
 .left {
 	float: left;
 }
-
 .right {
 	float: right;
 }
@@ -40,7 +38,6 @@ html{
 	font-size: 1.5em !important;
 	color: rgba(255,255,255, 0.45);
 }
-
 .link:hover{
 	color: rgba(255,255,255, 0.9);
 }
@@ -49,7 +46,6 @@ a{
 	color: #eee;
   	text-decoration: none;
 }
-
 /* Terminal Style */
 #terminal {
 	max-width: 600px;
@@ -59,7 +55,7 @@ a{
 	background-color: rgba(20, 20, 20, 1);
 	overflow: hidden;
 	width: 100%;
-	margin: 4em auto 1em auto;
+	margin: 2em auto 1em auto;
 	color: #eeeeee;
 	height: 180px;
 	-webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.12);
@@ -90,7 +86,6 @@ a{
 	padding: 3px 0px 0 0px;
 	margin-left: -58px;
 }
-
 .terminalbutton{
   height:12px;
   width:12px;
@@ -120,7 +115,6 @@ a{
 }
 .close{
 	background: #D84315;
-	cursor: pointer;
 }
 .minimize {
 	background: #FFAB40;
@@ -133,7 +127,6 @@ a{
 }
 
 /* "Logo" Style */
-
 #name {
 	width: auto;
 	font-size: 1.4em;
@@ -143,7 +136,6 @@ a{
 	text-align: center;
 	color: #FFEB3B;
 }
-
 #job {
 	width: auto;
 	font-size: 0.8em;
@@ -156,21 +148,18 @@ a{
 	visibility: hidden;
 	font-weight: 200;
 	margin: 2em;
-  	font-family: 'Roboto Mono', !important ;
+  	font-family: 'Roboto Mono', sans-serif ;
 }
-
 .contact{
 	color: rgba(255,255,255, 0.45);
 	margin: 0.2em;
 	font-size: 0.8em;
-	font-family: 'Roboto Mono', !important;
+	font-family: 'Roboto Mono', sans-serif;
 	font-weight: 100;
 }
-
 .footer{
 	font-size: 1em;
 }
-
 /* Responsive Code */
 
 /* Larger than mobile */
@@ -222,6 +211,5 @@ a{
 		width: 60%;
 	}
 }
-
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
