@@ -1,4 +1,8 @@
 /* HTML Style */
+@font-face {
+    font-family: 'vt323';
+    src: url('../fonts/VT323-Regular.ttf');
+}
 
 html{
 	background-color: #212121;
@@ -160,6 +164,7 @@ a{
 .footer{
 	font-size: 1em;
 }
+
 /* Responsive Code */
 
 /* Larger than mobile */
@@ -184,7 +189,7 @@ a{
 		font-size: 1em;
 	}
 	#terminal {
-		height: 250px;
+		height: 350px;
 	}
 }
 
